@@ -1,0 +1,17 @@
+%%-*- mode: erlang -*-
+{application, addaaworld,
+ [
+  {description, "addaaworld"},
+  {vsn, "1"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  crypto,
+                  mochiweb,
+                  webmachine
+                 ]},
+  {mod, { addaaworld_app, []}},
+  {env, []}
+ ]}.

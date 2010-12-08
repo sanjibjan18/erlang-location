@@ -1,0 +1,9 @@
+{application,addaaworld,
+             [{description,"addaaworld"},
+              {vsn,"1"},
+              {modules,[addaaworld,addaaworld_app,addaaworld_resource,
+                        addaaworld_sup]},
+              {registered,[]},
+              {applications,[kernel,stdlib,crypto,mochiweb,webmachine]},
+              {mod,{addaaworld_app,[]}},
+              {env,[]}]}.
